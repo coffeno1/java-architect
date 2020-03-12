@@ -4,7 +4,6 @@ import com.kf.chapter1.Person;
 import org.springframework.context.annotation.*;
 
 @Configuration
-@ComponentScan(value = "com.kf.chapter2")
 public class Config4Bean {
     /*
     配置类 等同于配置文件

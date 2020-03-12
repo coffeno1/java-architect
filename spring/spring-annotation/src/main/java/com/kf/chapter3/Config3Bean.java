@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
-@ComponentScan(value = "com.kf.chapter2")
 public class Config3Bean {
     /*
     配置类 等同于配置文件

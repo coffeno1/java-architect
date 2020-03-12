@@ -1,6 +1,5 @@
 package com.kf.test;
 
-import com.kf.chapter3.Config3Bean;
 import com.kf.chapter4.Config4Bean;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
