@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
     使用BeanPostProcessors如何控制Bean的生命周期
  */
 @Component
-public class JackPostBeanProcessor implements BeanPostProcessor {
+public class JackBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
