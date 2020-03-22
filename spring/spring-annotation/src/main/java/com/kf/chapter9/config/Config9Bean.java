@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-@ComponentScan({"com.kf.chapter9.controller","com.kf.chapter9.service","com.kf.chapter9.dao"})
+@ComponentScan({"com.kf.chapter9.controller","com.kf.chapter9.service","com.kf.chapter9.dao","com.kf.chapter9.bean"})
 @Configuration
 public class Config9Bean {
 

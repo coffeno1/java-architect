@@ -2,6 +2,7 @@ package com.kf.test;
 
 import com.kf.chapter8.bean.Bird;
 import com.kf.chapter8.config.Config8Bean;
+import com.kf.chapter9.bean.Light;
 import com.kf.chapter9.config.Config9Bean;
 import com.kf.chapter9.dao.TestDao;
 import com.kf.chapter9.service.TestService;
@@ -21,6 +22,18 @@ public class chapter9Test {
         TestDao testDao = app.getBean(TestDao.class);
         System.out.println(testDao);        //两个testDao的地址是一样的
         System.out.println("IOC容器创建完成.......");
+
+        app.close();
+
+    }
+
+    @Test
+    public void test02(){
+
+        AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(Config9Bean.class);
+
+//        Light light = app.getBean(Light.class);
+        System.out.println(app);
 
         app.close();
 
